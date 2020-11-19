@@ -1,0 +1,16 @@
+GET http://localhost:5000/products
+
+###
+
+POST http://localhost:5000/products
+Content-Type: application/json
+
+{
+    "name":"Fisting",
+    "description":"Stick your finger in my ass",
+    "params":{"price":"300$", "amount":"1", "color":"dark", "origin":"Vietnam"}
+}
+
+###
+
+GET http://localhost:5000/products/Vladimir Egorov/amount/2
